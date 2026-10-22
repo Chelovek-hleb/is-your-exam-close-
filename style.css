@@ -1,0 +1,152 @@
+:root {
+    --dark: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #E6E6FA;
+}
+
+.HEADER {
+    padding-block: 30px;
+    background-color: white;
+}
+
+.HEADER__container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.HEADER__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HEADER__list {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+.HEADER__list-item {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    padding-block: 200px 0px;
+}
+
+.hero__desc {
+    max-width: 800px;
+    margin-inline: auto;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+.hero__title {
+    max-width: 900px;
+    margin-inline: auto;
+    font-weight: 900;
+    font-size: 80px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+}
+
+.image2 {
+    position: absolute;
+    top: 600px;
+    left: 700px;
+}
+
+.image3 {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.hero2 {
+    padding-block: 250px 100px;
+}
+
+.hero__desc2 {
+    max-width: 800px;
+    margin-inline: auto;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+    line-height: 1.5;
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.hero__title2 {
+    margin-top: 40px;
+    max-width: 600px;
+    margin-inline: auto;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+    margin-bottom: 50px;
+}
+
+.SSA {
+    font-weight: 700;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.SSA:hover{
+    color: #6A5ACD;
+}
+
+.image4 {
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+}
+
+.image5 {
+    position: absolute;
+    top: 1300px;
+    left: 1390px;
+}
+
+.image6 {
+    position: absolute;
+    top: 1900px;
+    left: 1270px;
+}
+
+.image7 {
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
